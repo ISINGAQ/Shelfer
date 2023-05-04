@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bas_nav"
+    app:startDestination="@id/storyViewFragment">
+
+    <fragment
+        android:id="@+id/storyViewFragment"
+        android:name="com.example.teamfind.StoryViewFragment"
+        android:label="fragment_story_view"
+        tools:layout="@layout/fragment_story_view" />
+    <fragment
+        android:id="@+id/abouUserFragment"
+        android:name="com.example.teamfind.AbouUserFragment"
+        android:label="fragment_abou_user"
+        tools:layout="@layout/fragment_abou_user" />
+</navigation>
